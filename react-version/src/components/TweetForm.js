@@ -2,7 +2,7 @@ import React from 'react'; //optional
 
 function TweetForm() {
   const fillerText = "What are you humming about?"
-  const preD = (e) => {e.preventDefault()}
+  
   return (
     <section className="newtweet">
       <form method="post" action="/tweets" class="newtweet__form">
